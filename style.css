@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #FFD1CC;
+  padding-left: 169px;
+  padding-right: 169px;
+  padding-top: 30px;
+}
+
+
+.container {
+    clear:both;
+    overflow:auto;  
+  }
+  
+  .main-nav{  
+    float:left;
+  }
+  
+
+  
+  .links{
+    float:right;
+  }
+
+  a img {
+    border:0;
+    }
+
+
+  a{
+    
+    text-decoration: none;
+  }
+  
+  nav ul li{
+    color: black;
+    
+    display: inline-block;
+    padding-left: 50px; 
+    font-size: 17px;
+    font-family: 'Segoe UI' ;
+  }
+  
+  #project{
+    text-decoration: underline;
+    font-size: 16px;
+    padding-right: 30px;
+  }
+
+  #link{
+    font-size: 18px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    padding: 13px 50px;
+
+  }
+
+  nav ul li:hover{
+    text-decoration: underline; 
+  }
+
+  .Content{
+    padding-top: 150px;
+    padding-left: 130px;
+    float: left;
+    font-family: 'Segoe UI';
+    width: 30%;
+  }
+
+  .Content h1{
+    font-size: 58px;
+  }
+
+  .Content p {
+
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .button {
+    margin-top: 20px;
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+
+  .Content ul {
+    padding-left: 20px;
+    margin-top: 50px;
+    overflow:auto; 
+    padding-left: 0; 
+    color: black;
+    font-size: 17px;
+    font-family: 'Segoe UI' ;
+    line-height: 30px;
+  }
+
+  .image{
+    float: right;
+  }
+
+  .dot {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 3px 6px #00000029;
+  } 
+
+  #icon{
+    padding: 15px;
+  }
+
+  #Play{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    line-height: 0px;
+    text-decoration: none;
+    
+  }
+
+  #play-i{
+    padding: 2px;
+  }
+
+  .play-button{
+    position: absolute;
+  }
